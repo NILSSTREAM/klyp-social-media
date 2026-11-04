@@ -1,0 +1,66 @@
+# Klyp media library: fills the GitHub release "library" of this repository with
+# portrait background photos (Pixabay, Pexels, Openverse CC0) and royalty free music (Openverse, CC0 and CC BY),
+# plus manifest.json describing every file and its licence.
+#
+# Install as .github/workflows/klyp-library.yml in the PUBLIC media repository
+# (NILSSTREAM/klyp-social-media), next to library/fetch_library.py,
+# library/defaults.json and library/request.json.
+#
+# Repository secrets (Settings > Secrets and variables > Actions > Repository secrets),
+# all optional; with none, backgrounds come from Openverse CC0 photos only:
+#   PIXABAY_API_KEY           recommended: larger catalogue (free key shown on pixabay.com/api/docs once logged in)
+#   PEXELS_API_KEY            if you have one (Pexels paused new keys in November 2026)
+#   OPENVERSE_CLIENT_ID       higher Openverse rate limit
+#   OPENVERSE_CLIENT_SECRET   optional
+#
+# Runs on: a push that changes library/request.json (how the klyp-reel skill asks
+# for new media), a manual run (Actions > klyp media library > Run workflow), and
+# once a month to top the library up to the targets in defaults.json.
+name: klyp media library
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "library/request.json"
+      - "library/defaults.json"
+      - "library/fetch_library.py"
+      - ".github/workflows/klyp-library.yml"
+  schedule:
+    - cron: "17 4 1 * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: klyp-library
+  cancel-in-progress: false
+
+jobs:
+  fill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install Pillow and ffmpeg
+        run: |
+          python -m pip install --quiet pillow
+          command -v ffmpeg || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg)
+      - name: Fetch new media and publish the release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+          OPENVERSE_CLIENT_ID: ${{ secrets.OPENVERSE_CLIENT_ID }}
+          OPENVERSE_CLIENT_SECRET: ${{ secrets.OPENVERSE_CLIENT_SECRET }}
+        run: |
+          python library/fetch_library.py \
+            --repo "$REPO" \
+            --defaults library/defaults.json \
+            --request library/request.json \
+            --work "$RUNNER_TEMP/klyp-library" \
+            --publish

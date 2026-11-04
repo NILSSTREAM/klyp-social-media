@@ -1,0 +1,6 @@
+{
+  "_note": "Written by scripts/library.py request. Change the id to queue a new request; a request whose id is already in manifest.requests_done is ignored.",
+  "id": null,
+  "backgrounds": [],
+  "music": []
+}
