@@ -1,6 +1,6 @@
 # Klyp content log
 
-One section per batch, newest last. Read before planning: do not repeat an idea, a hook or a hero scene from the last 8 weeks, and keep the pillars rotating. Klyp publishes on Instagram only.
+One section per batch, newest last, each with an ideas table and a "Reel facts" table (hook formula, card style, photo, track, length) that performance.py joins with the Instagram stats; "performance review" sections hold what the stats taught. Read before planning: do not repeat an idea, a hook or a hero scene from the last 8 weeks, and keep the pillars rotating. Klyp publishes on Instagram only.
 
 ## 2026-11-04, batch 2026-11-09-week46
 
@@ -9,6 +9,14 @@ One section per batch, newest last. Read before planning: do not repeat an idea,
 | 01 | Password on one card | Control | Stop paying for 1 password | lock_page (noravidal, unlock the members card) | Mon 9 Nov 10:05 |
 | 02 | Poll in your bio | Interactive | A free poll in your bio in 15 seconds | poll_build (blank editor), poll_vote (yourname public page) | Wed 11 Nov 10:05 |
 | 03 | Liquid glass cards | Design | Nobody tells you cards can be glass | glass_toggle (design panel Crystal/Flat), glass_page (noravidal scroll) | Fri 13 Nov 10:05 |
+
+Reel facts (read by performance.py):
+
+| # | Hook formula | Style | Photo | Track | Length | Shots | Avg shot | Hook s | Texts |
+|---|---|---|---|---|---|---|---|---|---|
+| 01 | Negative Command | Crystal 0.18 | lighthouse-sepia | Tokyo Lofi | 15.1 s | 5 | 3.2 s | 3.5 s | 4 |
+| 02 | Time Collapse | Crystal 0.18 | windmill-and-reeds | Lofi 90S | 15.3 s | 5 | 3.2 s | 1.9 s | 5 |
+| 03 | Nobody Tells You | Crystal 0.18 | lighthouse-sepia | Abstract Lofi | 15.0 s | 7 | 2.2 s | 3.2 s | 6 |
 
 Notes: final version made on 2026-11-08. liquidGL v2.0.0 at DPR 2, glass opacity 0.18 or less, no background blur. Backgrounds from Backgrounds/ (noravidal: lighthouse-sepia, yourname: windmill-and-reeds). Music from Musics/: Tokyo Lofi (01), Lofi 90S (02), Abstract Lofi (03). TikTok versions from earlier drafts were dropped (Instagram only).
 
@@ -25,6 +33,20 @@ Notes: final version made on 2026-11-08. liquidGL v2.0.0 at DPR 2, glass opacity
 | 07 | Scheduled card | Control | This link leaves on its own | schedule_add (phone editor) | Mon 30 Nov 10:05 |
 | 08 | Fonts in one tap | Design | Your bio, new font, 1 tap | fonts (design panel, Bebas, Abril, Caveat) | Wed 2 Dec 10:05 |
 | 09 | What Pro adds | Pro, briefly | Everything you saw this month: free | pro_tour (ivoray) | Fri 4 Dec 10:05 |
+
+Reel facts (read by performance.py):
+
+| # | Hook formula | Style | Photo | Track | Length | Shots | Avg shot | Hook s | Texts |
+|---|---|---|---|---|---|---|---|---|---|
+| 01 | The Deadline | Crystal 0.08 | sea-of-clouds-stars | Lofi | 15.0 s | 4 | 4.1 s | 3.6 s | 3 |
+| 02 | The Verbatim Question | Dashboard | none | Lofi Lofi Music | 14.1 s | 5 | 2.8 s | 4.2 s | 4 |
+| 03 | Time Collapse | Template | Sunset Dune gradient | Lofi Midnight Club | 20.8 s | 5 | 4.6 s | 4.8 s | 4 |
+| 04 | The Objection | Flat | green-fields-track | Lofi | 16.2 s | 4 | 4.5 s | 4.0 s | 3 |
+| 05 | Time Collapse | Flat | green-fields-track | Abstract Lofi | 14.3 s | 5 | 2.9 s | 4.4 s | 3 |
+| 06 | The Steal | Crystal | blue-flowers-night | Lofi Lofi Music | 16.2 s | 5 | 3.5 s | 3.4 s | 4 |
+| 07 | The Reveal | Editor | none | Tokyo Lofi | 13.6 s | 5 | 2.7 s | 2.4 s | 4 |
+| 08 | Time Collapse | Crystal 0.14 | sun-rays-valley | Lofi 90S | 14.2 s | 7 | 1.9 s | 2.6 s | 5 |
+| 09 | The Receipt | Flat and Crystal | sea-of-clouds-stars | Lofi Midnight Club | 15.5 s | 6 | 2.6 s | 3.1 s | 4 |
 
 Notes (look per Reel): 01 noravidal on sea-of-clouds-stars, white text, Crystal 0.08, track Lofi. 02 dashboard, Lofi Lofi Music. 03 Sunset Dune template, Lofi Midnight Club. 04 noravidal on green-fields-track, Flat, Lofi. 05 editor with noravidal on green-fields-track, Flat, Abstract Lofi. 06 Explore and ivoray on blue-flowers-night, Lofi Lofi Music. 07 phone editor, Tokyo Lofi. 08 noravidal on sun-rays-valley, white text, Crystal 0.14, Lofi 90S. 09 noravidal Flat (hook) and ivoray on sea-of-clouds-stars, Lofi Midnight Club. Ideas used so far: password card, poll, liquid glass, countdown, stats, template, guestbook, drag, Explore, scheduling, fonts, Pro. Next batches: new angles only (for example QR code, hide from Explore, SEO title, text colour and gradients, Crystal vs Flat side by side on one photo).
 
