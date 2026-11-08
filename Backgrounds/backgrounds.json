@@ -1,0 +1,179 @@
+{
+  "seagulls-over-the-sea.jpg": {
+    "tags": [
+      "light",
+      "sea",
+      "birds",
+      "monochrome"
+    ],
+    "license": "pexels",
+    "source": "Pexels (chosen by the owner)",
+    "usable": true,
+    "reason": ""
+  },
+  "autumn-forest-road.jpg": {
+    "tags": [
+      "mid",
+      "forest",
+      "autumn",
+      "road"
+    ],
+    "license": "pexels",
+    "source": "Pexels (chosen by the owner)",
+    "usable": true,
+    "reason": ""
+  },
+  "blue-flowers-night.jpg": {
+    "tags": [
+      "dark",
+      "flowers",
+      "blue"
+    ],
+    "license": "pexels",
+    "source": "Pexels (chosen by the owner)",
+    "usable": true,
+    "reason": ""
+  },
+  "sea-of-clouds-stars.jpg": {
+    "tags": [
+      "dark",
+      "sky",
+      "night",
+      "clouds"
+    ],
+    "license": "pexels",
+    "source": "Pexels (chosen by the owner)",
+    "usable": true,
+    "reason": ""
+  },
+  "green-fields-track.jpg": {
+    "tags": [
+      "mid",
+      "fields",
+      "green",
+      "landscape"
+    ],
+    "license": "pexels",
+    "source": "Pexels (chosen by the owner)",
+    "usable": true,
+    "reason": ""
+  },
+  "table-candle-notebooks.jpg": {
+    "tags": [
+      "mid",
+      "interior",
+      "cosy"
+    ],
+    "license": "pexels",
+    "source": "Pexels (chosen by the owner)",
+    "usable": false,
+    "reason": "Fujifilm logo on the camera and Winnie the Pooh stickers on a notebook"
+  },
+  "misty-granite-peaks.jpg": {
+    "tags": [
+      "mid",
+      "mountains",
+      "mist",
+      "landscape"
+    ],
+    "license": "pexels",
+    "source": "Pexels (chosen by the owner)",
+    "usable": true,
+    "reason": ""
+  },
+  "windmill-and-reeds.jpg": {
+    "tags": [
+      "light",
+      "sky",
+      "countryside",
+      "windmill"
+    ],
+    "license": "pexels",
+    "source": "Pexels (chosen by the owner)",
+    "usable": true,
+    "reason": ""
+  },
+  "sun-rays-valley.jpg": {
+    "tags": [
+      "dark",
+      "mountains",
+      "light rays",
+      "landscape"
+    ],
+    "license": "pexels",
+    "source": "Pexels (chosen by the owner)",
+    "usable": true,
+    "reason": ""
+  },
+  "cafe-counter.jpg": {
+    "tags": [
+      "mid",
+      "cafe",
+      "interior"
+    ],
+    "license": "pexels",
+    "source": "Pexels (chosen by the owner)",
+    "usable": false,
+    "reason": "readable menu boards, brand flyers and signs"
+  },
+  "lighthouse-sepia.jpg": {
+    "tags": [
+      "light",
+      "sea",
+      "lighthouse",
+      "monochrome"
+    ],
+    "license": "pexels",
+    "source": "Pexels (chosen by the owner)",
+    "usable": true,
+    "reason": ""
+  },
+  "red-maple-leaves.jpg": {
+    "tags": [
+      "light",
+      "leaves",
+      "autumn",
+      "red"
+    ],
+    "license": "pexels",
+    "source": "Pexels (chosen by the owner)",
+    "usable": true,
+    "reason": ""
+  },
+  "skyscrapers-and-plane.jpg": {
+    "tags": [
+      "mid",
+      "city",
+      "architecture",
+      "monochrome"
+    ],
+    "license": "pexels",
+    "source": "Pexels (chosen by the owner)",
+    "usable": true,
+    "reason": ""
+  },
+  "vintage-radio-window-seat.jpg": {
+    "tags": [
+      "mid",
+      "interior",
+      "cosy",
+      "vintage"
+    ],
+    "license": "pexels",
+    "source": "Pexels (chosen by the owner)",
+    "usable": true,
+    "reason": ""
+  },
+  "seaside-bus-stop.jpg": {
+    "tags": [
+      "light",
+      "sea",
+      "mountains",
+      "street"
+    ],
+    "license": "pexels",
+    "source": "Pexels (chosen by the owner)",
+    "usable": false,
+    "reason": "bus stop signs with readable text"
+  }
+}
